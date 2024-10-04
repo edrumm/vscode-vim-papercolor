@@ -1,0 +1,21 @@
+{
+  "name": "vscode-vim-papercolor",
+  "displayName": "vscode-vim-papercolor",
+  "description": "a port of https://github.com/NLKNguyen/papercolor-theme to vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PaperColor for VSCode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/PaperColor for VSCode-color-theme.json"
+      }
+    ]
+  }
+}
