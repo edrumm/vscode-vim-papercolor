@@ -8,7 +8,6 @@ export const dark = {
     grey: '#808080',
     orange: '#d7875f',
     darkGrey: '#585858',
-    green: '#5faf5f',
     lightGreen: '#afd700',
     lilac: '#af87d7',
     amber: '#ffaf00',
@@ -22,7 +21,7 @@ export const light = {
     foreground: '#444444',
     darkRed: '#af0000',
     green: '#5faf00',
-    khaki: '#d7af5f',
+    khaki: '#5f8700',
     blue: '#5fafd7',
     grey: '#808080',
     seaBlue: '#d7875f',
@@ -38,5 +37,3 @@ export const defaults = {
     activityBar: '#007acc',
     sideBarFg: '#bbbbbb'
 };
-
-// module.exports = { dark, light, defaults };

@@ -1,1 +1,151 @@
-{"name":"PaperColor Dark","colors":{"editor.background":"#1c1c1c","editor.foreground":"#d0d0d0","activityBarBadge.background":"#007acc","sideBarTitle.foreground":"#bbbbbb"},"tokenColors":[]}
+{
+	"name": "PaperColor Dark",
+	"colors": {
+		"editor.background": "#1c1c1c",
+		"editor.foreground": "#d0d0d0",
+		"editorBracketHighlight.foreground1": "#00afaf",
+		"editorBracketHighlight.foreground2": "#009d9d",
+		"editorBracketHighlight.foreground3": "#00afaf",
+		"editorBracketHighlight.foreground4": "#009d9d",
+		"editorBracketHighlight.foreground5": "#00afaf",
+		"editorBracketHighlight.foreground6": "#009d9d",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#af005f",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"tokenColors": [
+		{
+			"name": "Language",
+			"scope": [
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#5f8700"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#ff5faf"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"string.quoted.triple",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#5f8700"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": [
+				"invalid"
+			],
+			"settings": {
+				"foreground": "#af005f"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": [
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#afd700"
+			}
+		},
+		{
+			"name": "Storage type, keyword, macro",
+			"scope": [
+				"storage.type.function.go",
+				"storage.type.struct.c",
+				"meta.preprocessor.macro.c",
+				"keyword"
+			],
+			"settings": {
+				"foreground": "#00afaf"
+			}
+		},
+		{
+			"name": "Operator, preprocessor",
+			"scope": [
+				"keyword.operator",
+				"punctuation.separator.pointer-access.c",
+				"meta.preprocessor.c"
+			],
+			"settings": {
+				"foreground": "#5fafd7"
+			}
+		},
+		{
+			"name": "Other, punctuation",
+			"scope": [
+				"keyword.other",
+				"punctuation.terminator",
+				"punctuation.accessor",
+				"punctuation.other.period",
+				"punctuation.separator"
+			],
+			"settings": {
+				"foreground": "#00afaf"
+			}
+		},
+		{
+			"name": "Control",
+			"scope": [
+				"keyword.control",
+				"punctuation.separator.colon.python"
+			],
+			"settings": {
+				"foreground": "#af87d7"
+			}
+		},
+		{
+			"name": "Python separator",
+			"scope": [
+				"meta.function.python punctuation.section.function.begin.python"
+			],
+			"settings": {
+				"foreground": "#00afaf"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string",
+				"constant.character",
+				"string.quoted.double",
+				"string.quoted.single",
+				"string.quoted.other.lt-gt.include.c"
+			],
+			"settings": {
+				"foreground": "#d7af5f"
+			}
+		},
+		{
+			"name": "Storage modifier",
+			"scope": [
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#d7875f"
+			}
+		},
+		{
+			"name": "Includes",
+			"scope": [
+				"meta.preprocessor.include.c keyword.control.directive.include.c"
+			],
+			"settings": {
+				"foreground": "#5faf00"
+			}
+		}
+	]
+}

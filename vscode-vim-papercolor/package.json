@@ -1,7 +1,7 @@
 {
   "name": "vscode-vim-papercolor",
   "displayName": "vscode-vim-papercolor",
-  "description": "a port of https://github.com/NLKNguyen/papercolor-theme to vscode",
+  "description": "a custom port of https://github.com/NLKNguyen/papercolor-theme to vscode",
   "version": "0.0.1",
   "type": "module",
   "engines": {

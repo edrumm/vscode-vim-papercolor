@@ -12,6 +12,14 @@
             "args": [
                 "--extensionDevelopmentPath=${workspaceFolder}"
             ]
+        },
+        {
+            "name": "Build",
+            "type": "node",
+            "request": "launch",
+            "args": [
+                "build/index.js"
+            ]
         }
     ]
 }
